@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.crisolapp.detallecliente.DetalleCliente">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:id="@+id/textCodigoCliente"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#FF2DB3FF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:id="@+id/textNombreCliente"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#FF2DB3FF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="negocio"
+            android:id="@+id/textNegocioCliente"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#FF2DB3FF" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            android:choiceMode="singleChoice"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+</RelativeLayout>

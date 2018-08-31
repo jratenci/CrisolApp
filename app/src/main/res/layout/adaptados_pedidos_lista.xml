@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="codigo"
+        android:id="@+id/txtCodigo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FF2DB3FF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/txtNombre"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5000 X 2 = 10000"
+        android:id="@+id/txtPrecio"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff489386" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:id="@+id/txtEstado"
+        android:textColor="#FF2DB3FF" />
+</LinearLayout>
